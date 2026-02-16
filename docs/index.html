@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reframe Review Page</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 2rem auto; max-width: 860px; line-height: 1.5; padding: 0 1rem; }
+      h1, h2 { line-height: 1.25; }
+      .muted { color: #666; }
+      .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+      table { width: 100%; border-collapse: collapse; }
+      th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+      th { background: #f7f7f7; }
+      code { background: #f5f5f5; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>Reframe Review Page</h1>
+    <p class="muted">GitHub Pages-friendly review landing page.</p>
+
+    <div class="card">
+      <h2>Executive Summary</h2>
+      <ul>
+        <li>Reframe baseline repository setup is complete.</li>
+        <li>Planning is in progress; owners and dates still need assignment.</li>
+        <li>Next gate: convert planning outputs into assigned, dated execution items.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Milestone Snapshot</h2>
+      <table>
+        <thead>
+          <tr><th>Milestone</th><th>Status</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Reframe baseline setup</td><td>✅ Complete</td><td>Ready to close</td></tr>
+          <tr><td>Reframe planning pass</td><td>🟡 In progress</td><td>Needs owners + dates</td></tr>
+          <tr><td>Reframe execution pass</td><td>⚪ Not started</td><td>Blocked by planning finalization</td></tr>
+          <tr><td>Reframe validation pass</td><td>⚪ Not started</td><td>Depends on execution output</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Editable source document: <a href="./reframe-progress-framework.md"><code>docs/reframe-progress-framework.md</code></a></p>
+  </body>
+</html>
